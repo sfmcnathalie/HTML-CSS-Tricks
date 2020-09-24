@@ -1,0 +1,13 @@
+
+<!--- align text to different sides of the same line--->
+
+<style>
+#left{
+     float:left;
+}
+#right{
+     float:right;
+}
+</style>
+<span id="left">To the left</span>
+<span id="right">To the right</span>
