@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ------------------------------------- 
+  COLOR GUIDE
+ 
+ Medium Gray #94A1A4
+ Dark Gray #353F3F
+ Dark Yellow #FFBE40
+ Orange #F57A12
+ Cyan Blue #10B5D3
+ Navy Blue #054361
+ Lime Green #B3CC57
+ Fuscia #FF0755
+ Pastel Yellow #FFF08E
+ Mint Green #A2E8BB
+ Hunter Green #005052
+ Red Violet #6603A7
+ Pink #FFA4CB
+ Baby Blue #8BE2FE
+ Blue Violet #3C2FB2
+  
+------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Roboto Condensed', Arial, sans-serif;
+ font-weight: 400;
+ line-height: 110%;
+}
+p {
+ font-family: 'Roboto', Arial, sans-serif;
+}
+.text-navy {
+ color: #054361 !important;
+}
+.text-orange {
+ color: #F57A12 !important;
+}
+.logo {
+ max-width: 214px;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link.dropdown-toggle {
+ color: #054361;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover {
+ color: #10B5D3;
+ border-bottom: 3px solid #10B5D3;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+ padding: 1rem
+}
+.img-polaroid {
+ border: 7px solid #fff;
+ -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+ -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+ box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+}
+.carousel-overlay {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ z-index: 2;
+ background-color: transparent;
+ /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+ /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+ background-image: -webkit-gradient(linear, left top, right top, from(rgba(51,51,51,0.65)), to(rgba(51,51,51,0)));
+ /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+ background-image: -webkit-linear-gradient(left, rgba(51,51,51,0.65), rgba(51,51,51,0));
+ /* Firefox 3.6 - 15 */
+ background-image: -moz-linear-gradient(left, rgba(51,51,51,0.65), rgba(51,51,51,0));
+ /* Opera 11.1 - 12 */
+ background-image: -o-linear-gradient(left, rgba(51,51,51,0.65), rgba(51,51,51,0));
+ /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+ background-image: linear-gradient(to right, rgba(51,51,51,0.65), rgba(51,51,51,0));
+}
+.service-icons {
+ background: #fff;
+ -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+ -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+ box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+}
+.service-icons img {
+  max-width: 75px;
+  margin: 20% auto 10%;
+  display: block;
+}
+.service-icons h3 {
+ color: #F57A12;
+ font-size: 1.25rem;
+ text-align: center;
+}
+.service-icons p {
+ color: #353F3F;
+ font-size: 0.9rem;
+ text-align: center;
+}
